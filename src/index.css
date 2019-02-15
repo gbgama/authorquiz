@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.continue-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.continue-btn {
+  position: relative;
+  right: 24vw;
+  bottom: 5vh;
+  height: 5vh;
+  width: 16vw;
+  background-color: #b2b2b2;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+}
+
+.continue-btn span {
+  color: black;
+  font-size: 1.6em;  
+}
+
+.continue-btn:hover {
+  cursor: pointer;
+  background-color: #e0e0e0;
+}
+
+#footer p {
+  margin: auto;
+}
